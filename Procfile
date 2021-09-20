@@ -1,1 +1,2 @@
-web: gunicorn blog.wsgi --log-file -
+web: gunicorn blog.wsgi
+web: gunicorn translator.wsgi
